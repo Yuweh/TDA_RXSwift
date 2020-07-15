@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5250026FF1A1B24B553BB9FA /* Pods_TDA_RXSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D75F1DAC00E39E8027E30F /* Pods_TDA_RXSwift.framework */; };
+		9003420324BF4AB20076FCF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003420224BF4AB20076FCF4 /* AppDelegate.swift */; };
+		9003420C24BF4AB50076FCF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9003420B24BF4AB50076FCF4 /* Assets.xcassets */; };
+		9003421724BF4B120076FCF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003421624BF4B110076FCF4 /* SceneDelegate.swift */; };
+		9003421924BF4B380076FCF4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003421824BF4B380076FCF4 /* Task.swift */; };
+		9003421D24BF4B430076FCF4 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003421A24BF4B430076FCF4 /* AddTaskViewController.swift */; };
+		9003421F24BF4B430076FCF4 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003421C24BF4B430076FCF4 /* TaskListViewController.swift */; };
+		9003423124BF55C30076FCF4 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9003423024BF55C30076FCF4 /* UIViewExt.swift */; };
+		9003423324BF56240076FCF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9003423224BF56240076FCF4 /* LaunchScreen.storyboard */; };
+		9003423524BF56320076FCF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9003423424BF56320076FCF4 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		900341FF24BF4AB20076FCF4 /* TDA_RXSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDA_RXSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9003420224BF4AB20076FCF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9003420B24BF4AB50076FCF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9003421024BF4AB50076FCF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9003421624BF4B110076FCF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../.Trash/SceneDelegate.swift; sourceTree = "<group>"; };
+		9003421824BF4B380076FCF4 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		9003421A24BF4B430076FCF4 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		9003421C24BF4B430076FCF4 /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		9003423024BF55C30076FCF4 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		9003423224BF56240076FCF4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9003423424BF56320076FCF4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93662333A0AF1B3409FE78D8 /* Pods-TDA_RXSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDA_RXSwift.release.xcconfig"; path = "Target Support Files/Pods-TDA_RXSwift/Pods-TDA_RXSwift.release.xcconfig"; sourceTree = "<group>"; };
+		A52A053FB82A08863D9E890E /* Pods-TDA_RXSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TDA_RXSwift.debug.xcconfig"; path = "Target Support Files/Pods-TDA_RXSwift/Pods-TDA_RXSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		E3D75F1DAC00E39E8027E30F /* Pods_TDA_RXSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TDA_RXSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900341FC24BF4AB20076FCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250026FF1A1B24B553BB9FA /* Pods_TDA_RXSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46296CF67FC4427151011F0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3D75F1DAC00E39E8027E30F /* Pods_TDA_RXSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		900341F624BF4AB20076FCF4 = {
+			isa = PBXGroup;
+			children = (
+				9003420124BF4AB20076FCF4 /* TDA_RXSwift */,
+				9003420024BF4AB20076FCF4 /* Products */,
+				D705A224BBA6278D50BC68DD /* Pods */,
+				46296CF67FC4427151011F0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9003420024BF4AB20076FCF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900341FF24BF4AB20076FCF4 /* TDA_RXSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9003420124BF4AB20076FCF4 /* TDA_RXSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9003422824BF54970076FCF4 /* Model */,
+				9003422724BF54900076FCF4 /* VIewControllers */,
+				9003422624BF548A0076FCF4 /* Views */,
+				9003422524BF54830076FCF4 /* Extensions */,
+				9003420224BF4AB20076FCF4 /* AppDelegate.swift */,
+				9003421624BF4B110076FCF4 /* SceneDelegate.swift */,
+				9003420B24BF4AB50076FCF4 /* Assets.xcassets */,
+				9003421024BF4AB50076FCF4 /* Info.plist */,
+			);
+			path = TDA_RXSwift;
+			sourceTree = "<group>";
+		};
+		9003422524BF54830076FCF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9003423024BF55C30076FCF4 /* UIViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9003422624BF548A0076FCF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9003423424BF56320076FCF4 /* Main.storyboard */,
+				9003423224BF56240076FCF4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9003422724BF54900076FCF4 /* VIewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9003421C24BF4B430076FCF4 /* TaskListViewController.swift */,
+				9003421A24BF4B430076FCF4 /* AddTaskViewController.swift */,
+			);
+			path = VIewControllers;
+			sourceTree = "<group>";
+		};
+		9003422824BF54970076FCF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9003421824BF4B380076FCF4 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D705A224BBA6278D50BC68DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A52A053FB82A08863D9E890E /* Pods-TDA_RXSwift.debug.xcconfig */,
+				93662333A0AF1B3409FE78D8 /* Pods-TDA_RXSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900341FE24BF4AB20076FCF4 /* TDA_RXSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9003421324BF4AB50076FCF4 /* Build configuration list for PBXNativeTarget "TDA_RXSwift" */;
+			buildPhases = (
+				B92E01DD3EB007670B58FD90 /* [CP] Check Pods Manifest.lock */,
+				900341FB24BF4AB20076FCF4 /* Sources */,
+				900341FC24BF4AB20076FCF4 /* Frameworks */,
+				900341FD24BF4AB20076FCF4 /* Resources */,
+				A17FB80ED1EC0D88035BEF41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDA_RXSwift;
+			productName = TDA_RXSwift;
+			productReference = 900341FF24BF4AB20076FCF4 /* TDA_RXSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900341F724BF4AB20076FCF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Francis B";
+				TargetAttributes = {
+					900341FE24BF4AB20076FCF4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 900341FA24BF4AB20076FCF4 /* Build configuration list for PBXProject "TDA_RXSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900341F624BF4AB20076FCF4;
+			productRefGroup = 9003420024BF4AB20076FCF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900341FE24BF4AB20076FCF4 /* TDA_RXSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900341FD24BF4AB20076FCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9003423524BF56320076FCF4 /* Main.storyboard in Resources */,
+				9003423324BF56240076FCF4 /* LaunchScreen.storyboard in Resources */,
+				9003420C24BF4AB50076FCF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A17FB80ED1EC0D88035BEF41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDA_RXSwift/Pods-TDA_RXSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TDA_RXSwift/Pods-TDA_RXSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TDA_RXSwift/Pods-TDA_RXSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B92E01DD3EB007670B58FD90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TDA_RXSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900341FB24BF4AB20076FCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9003423124BF55C30076FCF4 /* UIViewExt.swift in Sources */,
+				9003421F24BF4B430076FCF4 /* TaskListViewController.swift in Sources */,
+				9003421924BF4B380076FCF4 /* Task.swift in Sources */,
+				9003420324BF4AB20076FCF4 /* AppDelegate.swift in Sources */,
+				9003421724BF4B120076FCF4 /* SceneDelegate.swift in Sources */,
+				9003421D24BF4B430076FCF4 /* AddTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9003421124BF4AB50076FCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9003421224BF4AB50076FCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9003421424BF4AB50076FCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52A053FB82A08863D9E890E /* Pods-TDA_RXSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3EJJ6M7CU;
+				INFOPLIST_FILE = TDA_RXSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiapps.TDA-RXSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9003421524BF4AB50076FCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93662333A0AF1B3409FE78D8 /* Pods-TDA_RXSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3EJJ6M7CU;
+				INFOPLIST_FILE = TDA_RXSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiapps.TDA-RXSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900341FA24BF4AB20076FCF4 /* Build configuration list for PBXProject "TDA_RXSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9003421124BF4AB50076FCF4 /* Debug */,
+				9003421224BF4AB50076FCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9003421324BF4AB50076FCF4 /* Build configuration list for PBXNativeTarget "TDA_RXSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9003421424BF4AB50076FCF4 /* Debug */,
+				9003421524BF4AB50076FCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900341F724BF4AB20076FCF4 /* Project object */;
+}
